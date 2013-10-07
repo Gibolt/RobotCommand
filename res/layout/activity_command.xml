@@ -9,7 +9,7 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button_up"
+        android:id="@+id/button_forward"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button_left"
@@ -18,10 +18,10 @@
         android:text="@string/button_forward" />
 
     <Button
-        android:id="@+id/button_down"
+        android:id="@+id/button_reverse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button_up"
+        android:layout_alignLeft="@+id/button_forward"
         android:layout_below="@+id/button_right"
         android:layout_marginTop="21dp"
         android:text="@string/button_reverse" />
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button_left"
         android:layout_alignBottom="@+id/button_left"
-        android:layout_toRightOf="@+id/button_up"
+        android:layout_toRightOf="@+id/button_forward"
         android:text="@string/button_right" />
 
     <Button
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/button_up"
+        android:layout_toLeftOf="@+id/button_forward"
         android:text="@string/button_left" />
 
     <TextView
@@ -52,5 +52,14 @@
         android:layout_alignParentTop="true"
         android:text="@string/command_title"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/command_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/command_end" />
 
 </RelativeLayout>

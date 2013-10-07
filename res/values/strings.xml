@@ -6,6 +6,7 @@
     <string name="ip_empty">Input IP Address</string>
     <string name="ip_enter">Enter</string>
     <string name="command_title" >Command Robot!</string>
+    <string name="command_end"   >End Control</string>
     <string name="button_forward">Forward</string>
     <string name="button_reverse">Reverse</string>
     <string name="button_left"   >Turn Left</string>
