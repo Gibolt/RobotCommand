@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RobotController</string>
+    <string name="action_settings">Settings</string>
+    <string name="ip_empty">Input IP Address</string>
+    <string name="ip_enter">Enter</string>
+    <string name="command_title" >Command Robot!</string>
+    <string name="button_forward">Forward</string>
+    <string name="button_reverse">Reverse</string>
+    <string name="button_left"   >Turn Left</string>
+    <string name="button_right"  >Turn Right</string>
+    
+</resources>
